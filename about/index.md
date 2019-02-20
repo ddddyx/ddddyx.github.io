@@ -39,7 +39,7 @@ QQ:705457572
 
 [[ZhuFN大佬]](https://buringstraw.win/)  
 
-[[perisino大佬]](https://www.cnblogs.com/perisino/)  
+[[Perisino大佬]](https://www.cnblogs.com/perisino/)  
 
 [[rsj大佬]](https://www.cnblogs.com/ddddeacde/)  
 
