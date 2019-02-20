@@ -56,3 +56,35 @@
     {% unless feature contains 'http://' or feature contains 'https://' %}{% capture feature %}{{ site.url }}/{{ feature }}{% endcapture %}{% endunless %}
     <style type="text/css">.feature {background-image:url({{ feature }});}</style>
     {% endif %}
+
+
+<!-- 鼠标特效 -->
+	<script>
+	var a_idx = 0;
+	jQuery(document).ready(function($) {
+	    $("body").click(function(e) {
+	        var a = new Array("人类的赞歌就是勇气的赞歌","恶人需要恶人的救世主","最短的捷径就是绕远路","我一定要把你推下罪恶的深渊","你要是想变强大，就得先从超越他开始！","我来成为你最后的希望","在这场战斗中没有所谓的正义,只有单纯的愿望而已。","我要守护别人的笑容，再也不想看到任何人流泪！","来细数你的罪恶吧！ ","患者的命运，由我来改变。","今晚去烤肉吧~","你妈的，为什么？");
+	        var $i = $("<span></span>").text(a[a_idx]);
+	        a_idx = (a_idx + 1) % a.length;
+	        var x = e.pageX,
+	        y = e.pageY;
+	        $i.css({
+	            "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+	            "top": y - 20,
+	            "left": x + 20,
+	            "position": "absolute",
+	            "font-weight": "bold",
+	            "color": "rgb("+~~(255*Math.random())+","+~~(255*Math.random())+","+~~(255*Math.random())+")"
+	        });
+	        $("body").append($i);
+	        $i.animate({
+	            "top": y - 180,
+	            "opacity": 0
+	        },
+	        1500,
+	        function() {
+	            $i.remove();
+	        });
+	    });
+	});
+	</script>
