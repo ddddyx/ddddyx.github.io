@@ -1,0 +1,81 @@
+---
+layout: post
+title: "洛谷P1119|灾后重建|最短路|Floyd|Floyd的拓展"
+date: 2018-11-08
+excerpt: "灾后重建，如同这个blog一般。"
+tags: [图论,最短路]
+comments: true
+---
+
+# 题目描述
+![](https://img2018.cnblogs.com/blog/1436945/201811/1436945-20181108214917611-977706057.png)
+
+
+## 分析
+考虑本题：  
+只通过修好的前几个村庄，从i->j的最短路，联想到   
+Flyod算法：  
+初始化：  
+```cpp 
+f[][]=INF;
+f[i][i]=0; 
+for(int k=1;k<=n;k++)
+	for(int i=1;i<=n;i++)
+		for(int j=1;j<=n;j++)
+			dist[i][j]=min(dist[i][j],dist[i][k]+dist[k][j]);
+
+ ```
+考虑FLyod算法意义：  
+**k为中转点**，i为起点，j为终点  
+起点i->j如果**只经过前k个点**的最短距离  
+考虑本题：  
+因为只能经过修好的前几个村庄，则刚好对应了Floyd算法的k的意义。   
+因为询问的**t是递增**的，所以不用进行排序。   
+**数据结构：**  
+利用了类似栈的思想（程序里面的head实质上是tail）：  
+因为t（包括每个村庄和询问）全是**递增的**，所以直接用栈首表示当前的时间的下标，如果当前下标的时间小于询问时间，则将中间断点增加一个  
+## 代码
+```cpp 
+#include <cstdio>
+#include <iostream>
+using namespace std;
+const int maxn=205;
+const int INF=9999999;
+int n,m;
+int dist[maxn][maxn],ct[maxn]/*完成的时间*/;
+int head=0/*表示前head个村庄重建*/;
+void init(){
+	scanf("%d%d",&n,&m);
+	for(int i=0;i<n;i++) scanf("%d",&ct[i]);
+	for(int i=0;i<n;i++)
+		for(int j=0;j<n;j++) dist[i][j]=INF;
+	for(int i=0;i<n;i++) dist[i][i]=0;
+	for(int i=1;i<=m;i++){
+		int u,v,w;scanf("%d%d%d",&u,&v,&w);
+		dist[u][v]=dist[v][u]=w;
+	}
+}
+void Floyd(int k){
+	for(int i=0;i<n;i++)
+		for(int j=0;j<n;j++)
+			dist[i][j]=dist[j][i]=min(dist[i][j],dist[i][k]+dist[k][j]);
+}
+void solve(){
+	int q;scanf("%d",&q);
+	while(q--){
+		int u,v,t;scanf("%d%d%d",&u,&v,&t);
+		while(ct[head]<=t&&head<n){//当前的时间足以让下一个修路 
+			Floyd(head);
+			head++;
+		}
+		if(ct[u]>t||ct[v]>t) printf("%d\n",-1);
+		else printf("%d\n",dist[u][v]==INF?-1:dist[u][v]);
+	}
+}
+int main(){
+	init();
+	solve();
+	return 0;
+}
+
+ ```
