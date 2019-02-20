@@ -5,7 +5,7 @@ description:        "CQOIER"
 reading_time:       true
 words_per_minute:   200
 logo:               'https://i.loli.net/2019/02/20/5c6cf95b3423d.jpg'
-background:         'assets/img/placeholder-big.jpg'
+background:         'https://i.loli.net/2019/02/20/5c6cfae3ed44c.png'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             zh_CN
 url:                http://ddd-dyx.cn
