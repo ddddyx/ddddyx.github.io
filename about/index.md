@@ -37,7 +37,7 @@ QQ:705457572
 
 最后发一点与dalao们的Frined(PY) link:
 
-[[ZhuFn大佬]](https://www.cnblogs.com/buringstraw/)  
+[[ZhuFN大佬]](https://buringstraw.win/)  
 
 [[perisino大佬]](https://www.cnblogs.com/perisino/)  
 
