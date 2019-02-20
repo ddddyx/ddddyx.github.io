@@ -12,6 +12,7 @@ comments: true
 Hey,How do u do:)
 
 这里是ddddyx.
+![](https://i.loli.net/2019/02/20/5c6d46b31c998.png)
 
 ![](https://i.loli.net/2019/02/20/5c6d45fba4d65.jpg)
 
@@ -36,8 +37,13 @@ QQ:705457572
 
 最后发一点与dalao们的Frined(PY) link:
 
-[[ZhuFn大佬]](https://www.cnblogs.com/buringstraw/)
-[[perisino大佬]](https://www.cnblogs.com/perisino/)
-[[rsj大佬]](https://www.cnblogs.com/ddddeacde/)
-[[xjj大佬]](https://epworth.coding.me/)
-[[wyx大佬]](https://wuyanxi.top/)
+[[ZhuFn大佬]](https://www.cnblogs.com/buringstraw/)  
+
+[[perisino大佬]](https://www.cnblogs.com/perisino/)  
+
+[[rsj大佬]](https://www.cnblogs.com/ddddeacde/)  
+
+[[xjj大佬]](https://epworth.coding.me/)  
+
+[[wyx大佬]](https://wuyanxi.top/)  
+
