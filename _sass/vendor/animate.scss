@@ -38,6 +38,9 @@
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
+.fadeIn :hover{
+	opacity:1;
+}
 
 @-webkit-keyframes fadeInDown {
   from {
