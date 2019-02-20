@@ -19,7 +19,7 @@ Hey,How do u do:)
 OI方面菜的一批，会的东西少，会做的题更少。
 
 
-![](https://i.loli.net/2019/02/20/5c6d4a5403b98.jpg)
+![](https://i.loli.net/2019/02/20/5c6d4aeb260ee.jpg)
 
 CQOIER。
 
