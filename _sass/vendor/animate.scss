@@ -20,7 +20,7 @@
   }
 
   to {
-    opacity: 0.8;
+    opacity: 0.9;
   }
 }
 
@@ -30,16 +30,13 @@
   }
 
   to {
-    opacity: 0.8;
+    opacity: 0.9;
   }
 }
 
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
-}
-.fadeIn.opacity :hover {
-	opacity:1;
 }
 
 @-webkit-keyframes fadeInDown {
