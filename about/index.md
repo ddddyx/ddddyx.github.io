@@ -12,7 +12,6 @@ comments: true
 Hey,How do u do:)
 
 这里是ddddyx.
-![](https://i.loli.net/2019/02/20/5c6d46b31c998.png)
 
 ![](https://i.loli.net/2019/02/20/5c6d45fba4d65.jpg)
 
