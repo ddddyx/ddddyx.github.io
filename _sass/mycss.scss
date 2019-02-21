@@ -23,3 +23,9 @@ p {
     font-family: 方正姚体,serif;
     color: #4D4DFF;
 }
+
+/*主页名片动画*/
+.container.animated.fadeIn {
+    animation-name: ffadeIn;
+	-webkit-animation-name: ffadeIn;
+}
