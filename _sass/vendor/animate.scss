@@ -39,6 +39,32 @@
   animation-name: fadeIn;
 }
 
+/*用于主页动画*/
+@-webkit-keyframes fadeIn2 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.95;
+  }
+}
+
+@keyframes fadeIn2 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.95;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn2;
+  animation-name: fadeIn2;
+}
+
 @-webkit-keyframes fadeInDown {
   from {
     opacity: 0;
