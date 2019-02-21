@@ -19,7 +19,7 @@ $(function() {
 $(document).ready(function() {
     // zoom in/zoom out animations
     if ($(".container").hasClass('fadeOut')) {
-        $(".container").removeClass("fadeOut").addClass("fadeIn");
+        $(".container").removeClass("fadeOut").addClass("fadeIn2");
     }
     if ($(".wrapper").hasClass('fadeOut')) {
         $(".wrapper").removeClass("fadeOut").addClass("fadeIn");
