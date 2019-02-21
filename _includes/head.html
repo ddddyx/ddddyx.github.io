@@ -96,6 +96,7 @@
 
 <!-- loading -->
 
+
 <!DOCTYPE html>
 <html>
 
@@ -103,6 +104,11 @@
         <meta charset="UTF-8">
         <title></title>
         <style>
+            .wrapper2 {
+                position: relative;
+                height: 100%;
+                width: 100%;
+            }
             
             #loader-wrapper {
                 position: fixed;
@@ -115,7 +121,7 @@
             }
             
             #loader {
-                background: url('https://i.loli.net/2019/02/21/5c6e9505b6e99.gif') 50% 50% no-repeat #fff;
+                background: url('https://files-cdn.cnblogs.com/files/saitoasuka/loading.gif') 50% 50% no-repeat #fff;
                 display: block;
                 position: relative;
                 left: 50%;
@@ -128,28 +134,21 @@
             
             .loaded #loader {
                 opacity: 0;
-				display:none;
             }
             
             .loaded #loader-wrapper {
                 visibility: hidden;
-				opacity:0;
-				display:none;
             }
-			
-			.wrapper.loaded {
-				position:absolute;
-				opacity:0;
-			}
         </style>
 
     </head>
 
     <body>
-        <div class="wrapper">
+        <div class="wrapper2">
             <div id="loader-wrapper">
                 <div id="loader"></div>
             </div>
+            <span>动画加载完毕</span>
         </div>
         <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
         <script type="text/javascript">
