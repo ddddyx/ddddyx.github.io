@@ -40,7 +40,7 @@
 }
 
 /*用于主页动画*/
-@-webkit-keyframes ffadeIn {
+@-webkit-keyframes fadeIn2 {
   from {
     opacity: 0;
   }
@@ -50,7 +50,7 @@
   }
 }
 
-@keyframes ffadeIn {
+@keyframes fadeIn2 {
   from {
     opacity: 0;
   }
@@ -60,9 +60,9 @@
   }
 }
 
-.ffadeIn {
-  -webkit-animation-name: ffadeIn;
-  animation-name: ffadeIn;
+.fadeIn2 {
+  -webkit-animation-name: fadeIn2;
+  animation-name: fadeIn2;
 }
 
 @-webkit-keyframes fadeInDown {
