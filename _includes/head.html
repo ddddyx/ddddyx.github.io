@@ -93,3 +93,16 @@
 	    });
 	});
 	</script>
+
+<!-- 背景随机图片-->
+	<script type="text/javascript">
+	    //<!CDATA[
+	        var bodyBgs = [];
+	        bodyBgs[0] = "https://i.loli.net/2019/02/22/5c6f6cd5b7363.jpeg";//杀戮天使
+	        bodyBgs[1] = "https://i.loli.net/2019/02/22/5c6fb4574bf73.jpeg";//夜晚 星空 阳台上的小姐姐
+	        var randomBgIndex = Math.round( Math.random() * 2 );
+	    //输出随机的背景图
+	        document.write('<style>body{background:url(' + bodyBgs[randomBgIndex] + ') /*no-repeat 50% 0*/}</style>');
+	    //]]>
+	</script>
+	
