@@ -1,12 +1,13 @@
 # Site
 title:              ddddyx
-bio:                一切都是命运石之门的选择。
+bio:                一切都是命运石之门的选择。<br>背景加载不出来是图床问题<br>dbq刷新一会儿吧。
 description:        "CQOIER"
 reading_time:       true
 words_per_minute:   200
 logo:               'https://i.loli.net/2019/02/21/5c6e4e6a0fab1.png'
 #background:         'https://i.loli.net/2019/02/22/5c6f6cd5b7363.jpeg'
-background:         'https://i.loli.net/2019/02/22/5c6fb4574bf73.jpeg'
+#background:         'https://i.loli.net/2019/02/22/5c6fb4574bf73.jpeg'
+background:         'https://i.loli.net/2019/03/11/5c862d7c6a6ff.png'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             zh_CN
 url:                http://ddd-dyx.cn
