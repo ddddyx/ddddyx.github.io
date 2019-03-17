@@ -48,8 +48,30 @@
     {% if site.background %}
     {% capture background %}{{ site.background }}{% endcapture %}
     {% unless background contains 'http://' or background contains 'https://' %}{% capture background %}{{ site.url }}/{{ background }}{% endcapture %}{% endunless %}
-    <style type="text/css">body {background-image:url({{ background }}); {% unless site.tiled_bg %} background-repeat: no-repeat; background-size: cover; {% endunless %}}</style>
     {% endif %}
+    
+	<script type="text/css">
+	    //<!CDATA[
+	        var bodyBgs = [];
+	        bodyBgs[0] = "https://files.cnblogs.com/files/saitoasuka/background2.gif";
+	        bodyBgs[1] = "https://files.cnblogs.com/files/saitoasuka/da22.gif";
+	        bodyBgs[2] = "https://files.cnblogs.com/files/saitoasuka/db2.gif";
+	        bodyBgs[3] = "https://files.cnblogs.com/files/saitoasuka/background3.gif";
+	        bodyBgs[4] = "https://files.cnblogs.com/files/saitoasuka/de2.gif";
+	        bodyBgs[5] = "https://files.cnblogs.com/files/saitoasuka/df2.gif";
+	        bodyBgs[6] = "https://files.cnblogs.com/files/saitoasuka/dg2.gif";
+	        bodyBgs[7] = "https://files.cnblogs.com/files/saitoasuka/dh2.gif";
+	        bodyBgs[8] = "https://files.cnblogs.com/files/saitoasuka/bbd.gif";
+	        bodyBgs[9] = "https://files.cnblogs.com/files/saitoasuka/ddc.gif";
+	        bodyBgs[10] = "https://files.cnblogs.com/files/saitoasuka/ddf.gif";
+	        bodyBgs[11] = "https://files.cnblogs.com/files/saitoasuka/background4.gif";
+	        bodyBgs[12] = "https://files.cnblogs.com/files/saitoasuka/ddm.gif";
+	        bodyBgs[13] = "https://files-cdn.cnblogs.com/files/saitoasuka/background1.gif";
+	        var randomBgIndex = Math.round( Math.random() * 13 );
+	    //输出随机的背景图
+			body{'<style>body{background:url(' + bodyBgs[randomBgIndex] + ') /*no-repeat 50% 0*/}</style>')};
+	    //]]>
+	</script>
     <!-- Post Feature Image -->
     {% if page.feature %}
     {% capture feature %}{{ page.feature }}{% endcapture %}
@@ -81,7 +103,7 @@
 	            "font-weight": "bold",
 	            "color": "rgb("+~~(255*Math.random())+","+~~(255*Math.random())+","+~~(255*Math.random())+")"
 	        });
-	        $("body").append($i);
+	        $("body").append($  i);
 	        $i.animate({
 	            "top": y - 180,
 	            "opacity": 0
@@ -93,5 +115,3 @@
 	    });
 	});
 	</script>
-
-
