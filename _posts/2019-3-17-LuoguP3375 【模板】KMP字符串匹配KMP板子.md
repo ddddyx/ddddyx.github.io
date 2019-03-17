@@ -1,5 +1,6 @@
 # LuoguP3375 【模板】KMP字符串匹配|KMP|板子
 
+
 ---
 layout: post
 title: "LuoguP3375 【模板】KMP字符串匹配|KMP|板子"
@@ -8,6 +9,7 @@ excerpt: "在？<br>KK MP？"
 tags: [KMP,板子]
 comments: true
 ---
+
 
 # Problem
 
