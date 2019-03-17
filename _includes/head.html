@@ -45,14 +45,14 @@
     <link rel="shortcut icon" type="image/png" href="{{ site.url }}/favicon.png" />
     <link rel="shortcut icon" href="{{ site.url }}/favicon.ico" />
     <!-- Background Image -->
-  
+     <script>
 	        var bodyBgs = [];
 	        bodyBgs[0] = "https://i.loli.net/2019/02/22/5c6f6cd5b7363.jpeg";
 			bodyBgs[1] = "https://i.loli.net/2019/02/22/5c6fb4574bf73.jpeg";
 			bodyBgs[2] = "https://i.loli.net/2019/03/11/5c862d7c6a6ff.png";
 			var randomBgIndex = Math.round( Math.random() * 3 );
-			<style type="text/css"> body {background-image:url({bodyBgs[randomBgIndex]});  background-repeat: no-repeat; background-size: cover; }</style>
-	
+			<style type="text/css"> body {background-image:url({{bodyBgs[randomBgIndex]}});  background-repeat: no-repeat; background-size: cover; }</style>
+	</script>
     <!-- Post Feature Image -->
     {% if page.feature %}
     {% capture feature %}{{ page.feature }}{% endcapture %}
