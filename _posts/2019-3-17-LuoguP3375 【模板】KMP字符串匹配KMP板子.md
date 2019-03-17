@@ -1,4 +1,3 @@
-# LuoguP3375 【模板】KMP字符串匹配|KMP|板子
 
 
 ---
@@ -10,6 +9,7 @@ tags: [KMP,板子]
 comments: true
 ---
 
+# LuoguP3375 【模板】KMP字符串匹配|KMP|板子
 
 # Problem
 
