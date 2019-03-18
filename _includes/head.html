@@ -55,7 +55,7 @@
     {% capture feature %}{{ page.feature }}{% endcapture %}
     {% unless feature contains 'http://' or feature contains 'https://' %}{% capture feature %}{{ site.url }}/{{ feature }}{% endcapture %}{% endunless %}
     <style type="text/css">.feature {background-image:url({{ feature }});}</style>
-	{% endif %}
+    {% endif %}
 
 <!-- include Jquery-->
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
@@ -81,7 +81,7 @@
 	            "font-weight": "bold",
 	            "color": "rgb("+~~(255*Math.random())+","+~~(255*Math.random())+","+~~(255*Math.random())+")"
 	        });
-	        $("body").append($  i);
+	        $("body").append($i);
 	        $i.animate({
 	            "top": y - 180,
 	            "opacity": 0
