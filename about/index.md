@@ -4,28 +4,32 @@ title: About Me
 tags: [about]
 date: 2019-02-20
 comments: true
+
 ---
+
 # About
 
 > 接下来是腊鸡话废时间。
 
----
+------
 
 
 
 ## About the site
 
+**Base On Github**
+
 啊，自己也不知道是怎么搞起来的，点名表扬帮助我搞出博客的dalao们！
 
 现在唯一记得的就是每年给腾讯云交钱了。（我现在是马化腾的父亲了）
 
----
+------
 
 
 
 ## About Me
 
->  Hey,How do u do:)
+> Hey,How do u do:)
 
 这里是 ddddyx.
 
@@ -37,10 +41,9 @@ comments: true
 
 似乎什么都不会。
 
-
 ![](https://i.loli.net/2019/02/20/5c6d4aeb260ee.jpg)
 
----
+------
 
 
 
@@ -48,13 +51,17 @@ comments: true
 
 caricature（很多（吧））/替身使者/卡面来打/摸鱼（各方面的）/斋藤飞鸟
 
----
+AND SO ON...
+
+------
 
 
 
 > Contact Me
 
-[QQ:705457572](http://wpa.qq.com/msgrd?v=3&uin=705457572&site=qq&menu=yes)
+[QQ](http://wpa.qq.com/msgrd?v=3&uin=705457572&site=qq&menu=yes)
+
+(QQ:705457572)
 
 其他的方式+我企鹅吧。
 
@@ -76,7 +83,7 @@ Say "No!"
 
 ）
 
----
+------
 
 ## Links
 
@@ -94,6 +101,6 @@ Say "No!"
 
 [[sanapri大佬]](http://sanapri.cn/)
 
----
+------
 
 ## 以上。
